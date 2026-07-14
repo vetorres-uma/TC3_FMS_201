@@ -1,3 +1,5 @@
+TC3_FMS_201 - BITACORA
+
 - Crear un proyecto TwinCAT (TwinCAT XAE Project (XML format)) en una solución 
     - Nombre de la solución = TC3_FMS_201
     - Nombre del proyecto = 01_Monolitico
@@ -5,4 +7,10 @@
 - Incluir el archivo .gitignore
 - Incluir el archivo README
 - Crear un repositorio remoto en GitHub = TC3_FMS_201
-- Crear un repositorio locar y sincronizar (siguiendo las instrucciones de GitHub)
+- Crear un repositorio locaL y sincronizar con el remoto (siguiendo las instrucciones de GitHub)
+- Crear un FB_Estacion en SFC
+- Declarar todas las variables de entrada y salida en el bloque VAR de FB_Estacion
+- Declarar e invocar a Estacion de tipo FB_Estacion en MAIN
+- Crear una visualización (V_Estacion)
+- Añadir un rectángulo para monitorizar y modificar el valor de cada una de las variables de e/s
+- 
