@@ -7,6 +7,52 @@ END_VAR
 VAR_OUTPUT
 END_VAR
 VAR
+    // Variables de entrada
+    i_PulsadorEmergencia AT %I*: BOOL;
+    i_SelectorManual AT %I*: BOOL;
+    i_PulsadorMarcha AT %I*: BOOL;
+    i_PulsadorParada AT %I*: BOOL := TRUE;
+    i_EstacionConectada AT %I*: BOOL;
+    i_PresenciaPale AT %I*: BOOL;
+    i_CodigoPaleBit0 AT %I*: BOOL;
+    i_CodigoPaleBit1 AT %I*: BOOL;
+    
+    i_CodigoPaleBit2 AT %I*: BOOL;
+    i_DetectorPresion AT %I*: BOOL;
+    
+    i_DescargadorDetras AT %I*: BOOL;
+    i_DescargadorDelante AT %I*: BOOL;
+    i_DescargadorArriba AT %I*: BOOL;
+    i_DescargadorAbajo AT %I*: BOOL;
+    i_VerificadorArriba AT %I*: BOOL;
+    i_VerificadorAbajo AT %I*: BOOL;
+    i_DesplazadorDetras AT %I*: BOOL;
+    i_EmpujadorDetras AT %I*: BOOL;
+    
+    i_EmpujadorDelante AT %I*: BOOL;
+    i_DescargadorVacio AT %I*: BOOL;
+    i_PresenciaBase AT %I*: BOOL;
+    
+    // Variables de salida
+    o_DesconectaEstacion AT %Q*: BOOL;
+    o_LamparaAlarma AT %Q*: BOOL;
+    o_LamparaMarcha AT %Q*: BOOL;
+    o_LamparaMaterial AT %Q*: BOOL;
+    o_CintaActiva AT %Q*: BOOL;
+    o_CintaInvierte AT %Q*: BOOL;
+    o_RetenedorBaja AT %Q*: BOOL;
+    o_SeparadorSube AT %Q*: BOOL;
+    
+    o_DescargadorAvanza AT %Q*: BOOL;
+    o_DescargadorRetrocede AT %Q*: BOOL;
+    o_DescargadorBaja AT %Q*: BOOL;
+    o_RechazadorAvanza AT %Q*: BOOL;
+    o_VerificardorBaja AT %Q*: BOOL;
+    o_DesplazadorAvanza AT %Q*: BOOL;
+    o_EmpujadorAvanza AT %Q*: BOOL;
+    o_DescargadorSucciona AT %Q*: BOOL;
+    
+    o_AvisadorAcustico AT %Q*: BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -134,7 +180,7 @@ END_VAR
                       <v n="IdParent">9L</v>
                     </o>
                     <o t="SFCTransition">
-                      <n n="VariableName" />
+                      <v n="VariableName">"Init__to__Init"</v>
                       <n n="EmbeddedTransition" />
                       <l2 n="EmbeddedTransitionProperties" />
                       <l2 n="Attributes" cet="SFCAttribute">
