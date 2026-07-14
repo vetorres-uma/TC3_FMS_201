@@ -1,0 +1,8 @@
+- Crear un proyecto TwinCAT (TwinCAT XAE Project (XML format)) en una solución 
+    - Nombre de la solución = TC3_FMS_201
+    - Nombre del proyecto = 01_Monolitico
+- Ocultar las configuraciones innecesarias
+- Incluir el archivo .gitignore
+- Incluir el archivo README
+- Crear un repositorio remoto en GitHub = TC3_FMS_201
+- Crear un repositorio locar y sincronizar (siguiendo las instrucciones de GitHub)
