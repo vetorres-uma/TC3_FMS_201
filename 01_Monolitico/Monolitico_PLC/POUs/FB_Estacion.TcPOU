@@ -18,16 +18,16 @@ VAR
     i_CodigoPaleBit1 AT %I*: BOOL;
     
     i_CodigoPaleBit2 AT %I*: BOOL;
-    i_DetectorPresion AT %I*: BOOL;
+    i_DetectorPresion AT %I*: BOOL := TRUE;
     
-    i_DescargadorDetras AT %I*: BOOL;
+    i_DescargadorDetras AT %I*: BOOL := TRUE;
     i_DescargadorDelante AT %I*: BOOL;
-    i_DescargadorArriba AT %I*: BOOL;
+    i_DescargadorArriba AT %I*: BOOL := TRUE;
     i_DescargadorAbajo AT %I*: BOOL;
-    i_VerificadorArriba AT %I*: BOOL;
+    i_VerificadorArriba AT %I*: BOOL := TRUE;
     i_VerificadorAbajo AT %I*: BOOL;
-    i_DesplazadorDetras AT %I*: BOOL;
-    i_EmpujadorDetras AT %I*: BOOL;
+    i_DesplazadorDetras AT %I*: BOOL := TRUE;
+    i_EmpujadorDetras AT %I*: BOOL := TRUE;
     
     i_EmpujadorDelante AT %I*: BOOL;
     i_DescargadorVacio AT %I*: BOOL;
