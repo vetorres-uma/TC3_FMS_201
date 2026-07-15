@@ -37,21 +37,54 @@ TC3_FMS_201 - BITACORA
     - Position (Width, Height), Colors, Texts, Text properties, inputconfiguration (Toggle)
 [ ] Verificar la correcta monitorización y modificación de las señales de entrada y salida desde la visualización
 [ ] Realizar un ciclo completo manualmente desde la visualización
-15/07/2026 - 09:45 (0:45)
+15/07/2026 - 09:45 (0:45) (en este tiempo se realizo la visualización, luego se ha movido al siguiente tramo)
 15/07/2026 - 19:40
 [ ] Incluir la gestión básica del modo manual
 	- Mover i_SelectorManual de VAR a VAR_OUTPUT
 	- Condicionar la invocación de Estacion en MAIN al selector de modo
-[ ] Añadir la secuencia principal «directa» (FB_Estacion)
+[ ] Añadir la secuencia principal directa (camino feliz) en FB_Estacion
 	- Poco a poco: subsecuencia a subsecuencia
 	- Un ciclo por activación del pulsador de marcha 
-	- Incluir temporizaciones cuando sea necesario
+	- Incluir temporizaciones cuando sea necesario (ausencia de sensores)
 	- Una etapa por cada situación
 	- Validar las subsecuencias conforme se incluyen 
+15/07/2026 - 20:10 (0:30)
 [ ] Incluir las condiciones iniciales (FB_Estación y Visu_Estacion)
 [ ] Añadir la estructura para la gestión del procesamiento por lotes (FB_Estación y Visu_Estacion)
 	- Unidades pendientes y solicitadas[]
 
+Mensajes
+Severity	Code	Description	Project	File	Line	Suppression State
+Warning		15/07/2026 18:09:52 924 ms | 'TCOM Server' (10): Boot data not found (file: PLC\Port_851)				
+Message		generate boot information...	Monolitico_PLC	PLC.Monolitico_PLC	0	
+Message		Generate TMC information ...			0	
+Message		Build complete -- 0 errors, 0 warnings : ready for download!			0	
+Message		Import symbol information ...			0	
+Message		Size of global data: 14045 bytes			0	
+Message		Total allocated memory size for code and data: 478584 bytes			0	
+Message		Size of generated code: 75642 bytes			0	
+Message		typify code ...			0	
+Message		generate global initializations ...			0	
+Message		generate relocations ...			0	
+Message		generate code initialization ...			0	
+Message		generate code...			0	
+Message		------ Build started: Application: _01_Monolitico.Monolitico_PLC -------			0	
+
+Severity	Code	Description	Project	File	Line	Suppression State
+Warning		15/07/2026 18:09:52 924 ms | 'TCOM Server' (10): Boot data not found (file: PLC\Port_851)				
+Message		generate boot information...	Monolitico_PLC	PLC.Monolitico_PLC	0	
+Message		Import symbol information ...			0	
+Message		Size of global data: 14845 bytes			0	
+Message		generate code...			0	
+Message		generate code initialization ...			0	
+Message		typify code ...			0	
+Message		Build complete -- 0 errors, 0 warnings : ready for download!			0	
+Message		generate global initializations ...			0	
+Message		Total allocated memory size for code and data: 484560 bytes			0	
+Message		Size of generated code: 78492 bytes			0	
+Message		generate relocations ...			0	
+Message		------ Build started: Application: _01_Monolitico.Monolitico_PLC -------			0	
+Message		Generate TMC information ...			0	
 
 Atajos de teclado
 - Refactorizar (Rename) -> Ctrl+R, Ctrl+R

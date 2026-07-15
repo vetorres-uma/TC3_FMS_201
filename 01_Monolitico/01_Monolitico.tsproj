@@ -54,22 +54,23 @@
 		</System>
 		<Plc>
 			<Project GUID="{80E70141-DC01-49F3-8FDD-B07B1142880A}" Name="Monolitico_PLC" PrjFilePath="Monolitico_PLC\Monolitico_PLC.plcproj" TmcFilePath="Monolitico_PLC\Monolitico_PLC.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Monolitico_PLC\Monolitico_PLC.tmc" TmcHash="{F2720065-9858-FD19-0A51-8EC0468BFA19}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Monolitico_PLC\Monolitico_PLC.tmc" TmcHash="{5F866F33-7AEF-542E-85BA-103730D8CA6C}">
 					<Name>Monolitico_PLC Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
 						<Name>PlcTask Inputs</Name>
+						<Var>
+							<Name>MAIN.Estacion.i_SelectorManual</Name>
+							<Type>BOOL</Type>
+						</Var>
 						<Var>
 							<Name>MAIN.Estacion.i_PulsadorEmergencia</Name>
 							<Comment><![CDATA[ Variables de entrada]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.Estacion.i_SelectorManual</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
 							<Name>MAIN.Estacion.i_PulsadorMarcha</Name>
+							<Comment><![CDATA[i_SelectorManual AT %I*: BOOL;]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
