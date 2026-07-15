@@ -23,7 +23,11 @@ TC3_FMS_201 - BITACORA
 - Crear una visualización (V_Estacion)
 - Añadir un rectángulo para monitorizar y modificar el valor de cada una de las variables de e/s
     - Position (Width, Height), Colors, Texts, Text properties, inputconfiguration (Toggle)
-- 
+- Escanear la entrada/salida en búsqueda de dispositivos y terminales
+- Identificar las señales de entrada y salida
+- Vincular las variables de entrada y salida con las señales correspondientes
+- Verificar la correcta monitorización y modificación de las señales de entrada y salida desde la visualización
+- Realizar un ciclo completo 
 
 
 Atajos de teclado
