@@ -9,6 +9,8 @@ TC3_FMS_201 - BITACORA
 - Crear un repositorio remoto en GitHub = TC3_FMS_201
 - Crear un repositorio locaL y sincronizar con el remoto (siguiendo las instrucciones de GitHub)
 - Crear un proyecto PLC Standard en 01_Monolitico = Monolitico_PLC
+
+15/07/26 - 0:30	
 - Cofigurar el proyecto
     - Habilitar Minimize ID changes
         - BD sobre el proyecto PLC > Properties > Common > Minimize Id changes in TwinCAT files
@@ -23,6 +25,9 @@ TC3_FMS_201 - BITACORA
 - Crear una visualización (V_Estacion)
 - Añadir un rectángulo para monitorizar y modificar el valor de cada una de las variables de e/s
     - Position (Width, Height), Colors, Texts, Text properties, inputconfiguration (Toggle)
+15/07/26 - 03:00	
+15/07/26 - 09:00	
+- Conectarse al controlador remoto	
 - Escanear la entrada/salida en búsqueda de dispositivos y terminales
 - Identificar las señales de entrada y salida
 - Vincular las variables de entrada y salida con las señales correspondientes
