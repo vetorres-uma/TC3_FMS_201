@@ -15,7 +15,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{80E70141-DC01-49F3-8FDD-B07B1142880A}" Name="Monolitico_PLC" PrjFilePath="Monolitico_PLC\Monolitico_PLC.plcproj" TmcFilePath="Monolitico_PLC\Monolitico_PLC.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{148B7823-9778-CBD3-8A9A-214CD94400D0}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcHash="{F2720065-9858-FD19-0A51-8EC0468BFA19}">
 					<Name>Monolitico_PLC Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -109,7 +109,7 @@
 					<Vars VarGrpType="2" AreaNo="1">
 						<Name>PlcTask Outputs</Name>
 						<Var>
-							<Name>MAIN.Estacion.o_EstacionDesconecta</Name>
+							<Name>MAIN.Estacion.o_DesconectaEstacion</Name>
 							<Comment><![CDATA[ Variables de salida]]></Comment>
 							<Type>BOOL</Type>
 						</Var>
@@ -142,6 +142,10 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
+							<Name>MAIN.Estacion.o_AvisadorSonoro</Name>
+							<Type>BOOL</Type>
+						</Var>
+						<Var>
 							<Name>MAIN.Estacion.o_DescargadorAvanza</Name>
 							<Type>BOOL</Type>
 						</Var>
@@ -171,10 +175,6 @@
 						</Var>
 						<Var>
 							<Name>MAIN.Estacion.o_DescargadorSucciona</Name>
-							<Type>BOOL</Type>
-						</Var>
-						<Var>
-							<Name>MAIN.Estacion.o_AvisadorAcustico</Name>
 							<Type>BOOL</Type>
 						</Var>
 					</Vars>
@@ -520,7 +520,7 @@
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 3" Index="#x1602" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="DescargadprBaja" Index="#x7020" Sub="#x01">
+								<Entry Name="DescargadorBaja" Index="#x7020" Sub="#x01">
 									<Type>BIT</Type>
 								</Entry>
 							</Pdo>
@@ -642,4 +642,61 @@
 			</Device>
 		</Io>
 	</Project>
+	<Mappings>
+		<MappingInfo Identifier="{00000000-2001-0850-0020-500810000403}" Id="#x02030010"/>
+		<OwnerA Name="TIPC^Monolitico_PLC^Monolitico_PLC Instance">
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 2 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_CodigoPaleBit0" VarB="Channel 7^CodigoPaleBit0"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_CodigoPaleBit1" VarB="Channel 8^CodigoPaleBit1"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_EstacionConectada" VarB="Channel 5^EstacionConectada"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_PresenciaPale" VarB="Channel 6^PresenciaPale"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_PulsadorEmergencia" VarB="Channel 1^PulsadorEmergencia"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_PulsadorMarcha" VarB="Channel 3^PulsadorMarcha"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_PulsadorParada" VarB="Channel 4^PulsadorParada"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_SelectorManual" VarB="Channel 2^SelectorManual"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 3 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_CodigoPaleBit2" VarB="Channel 1^CodigoPaleBit2"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DetectorPresion" VarB="Channel 2^DetectorPresion"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 4 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_CintaActiva" VarB="Channel 5^CintaActiva"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_CintaInvierte" VarB="Channel 6^CintaInvierte"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_DesconectaEstacion" VarB="Channel 1^DesconectaEstacion"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_LamparaAlarma" VarB="Channel 2^LamparaAlarma"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_LamparaMarcha" VarB="Channel 3^LamparaMarcha"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_LamparaMaterial" VarB="Channel 4^LamparaMaterial"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_RetenedorBaja" VarB="Channel 7^RetenedorBaja"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_SeparadorSube" VarB="Channel 8^SeparadorSube"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 5 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_AvisadorSonoro" VarB="Channel 1^AvisadorSonoro"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 6 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DescargadorAbajo" VarB="Channel 4^DescargadorAbajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DescargadorArriba" VarB="Channel 3^DescargadorArriba"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DescargadorDelante" VarB="Channel 2^DescargadorDelante"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DescargadorDetras" VarB="Channel 1^DescargadorDetras"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DesplazadorDetras" VarB="Channel 7^DesplazadorDetras"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_EmpujadorDetras" VarB="Channel 8^EmpujadorDetras"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_VerificadorAbajo" VarB="Channel 6^VerificadorAbajo"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_VerificadorArriba" VarB="Channel 5^VerificadorArriba"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 7 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DescargadorVacio" VarB="Channel 2^DescargadorVacio"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_EmpujadorDelante" VarB="Channel 1^EmpujadorDelante"/>
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_PresenciaBase" VarB="Channel 3^PresenciaBase"/>
+			</OwnerB>
+			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_DescargadorAvanza" VarB="Channel 1^DescargadorAvanza"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_DescargadorBaja" VarB="Channel 3^DescargadorBaja"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_DescargadorRetrocede" VarB="Channel 2^DescargadorRetrocede"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_DescargadorSucciona" VarB="Channel 8^DescargadorSucciona"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_DesplazadorAvanza" VarB="Channel 6^DesplazadorAvanza"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_EmpujadorAvanza" VarB="Channel 7^EmpujadorAvanza"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_RechazadorAvanza" VarB="Channel 4^RechazadorAvanza"/>
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_VerificardorBaja" VarB="Channel 5^VerificadorBaja"/>
+			</OwnerB>
+		</OwnerA>
+	</Mappings>
 </TcSmProject>
