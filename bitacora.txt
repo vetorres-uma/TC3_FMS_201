@@ -33,7 +33,7 @@ TC3_FMS_201 - BITACORA
 - Vincular las variables de entrada y salida con las señales correspondientes
 - Verificar la correcta monitorización y modificación de las señales de entrada y salida desde la visualización
 - Realizar un ciclo completo 
-
+15/07/2026 - 09:45 (0:45)
 
 Atajos de teclado
 - Refactorizar (Rename) -> Ctrl+R, Ctrl+R
