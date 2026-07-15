@@ -8,9 +8,23 @@ TC3_FMS_201 - BITACORA
 - Incluir el archivo README
 - Crear un repositorio remoto en GitHub = TC3_FMS_201
 - Crear un repositorio locaL y sincronizar con el remoto (siguiendo las instrucciones de GitHub)
+- Crear un proyecto PLC Standard en 01_Monolitico = Monolitico_PLC
+- Cofigurar el proyecto
+    - Habilitar Minimize ID changes
+        - BD sobre el proyecto PLC > Properties > Common > Minimize Id changes in TwinCAT files
+        * Evita los cambios de los número de identificación de los POU y sus objetos (metodos, acciones,...) incluidos en el archivo de cada POU. Lo  que evita que se produzcan cambios innecesarios de los que hay que hacer control de veriones.
+    
+    - Deshabilitar Write product version in files
+        - BD sobre el proyecto PLC > Properties > Advanced > Write product version in files
+        * Elimina la versión de TwinCAT (ProductVersion) con la que se abrío cada POU que parece que no aporta nada.
 - Crear un FB_Estacion en SFC
-- Declarar todas las variables de entrada y salida en el bloque VAR de FB_Estacion
 - Declarar e invocar a Estacion de tipo FB_Estacion en MAIN
+- Declarar todas las variables de entrada y salida en el bloque VAR de FB_Estacion
 - Crear una visualización (V_Estacion)
 - Añadir un rectángulo para monitorizar y modificar el valor de cada una de las variables de e/s
+    - Position (Width, Height), Colors, Texts, Text properties, inputconfiguration (Toggle)
 - 
+
+
+Atajos de teclado
+- Refactorizar (Rename) -> Ctrl+R, Ctrl+R
