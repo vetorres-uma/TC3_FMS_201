@@ -492,7 +492,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.Estacion.o_EstacionDesconecta"</v>
+                          <v n="Value">"MAIN.Estacion.o_DesconectaEstacion"</v>
                         </o>
                       </l>
                     </o>
@@ -524,7 +524,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -691,7 +691,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -858,7 +858,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -993,7 +993,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.Estacion.o_AvisadorAcustico"</v>
+                          <v n="Value">"MAIN.Estacion.o_AvisadorSonoro"</v>
                         </o>
                       </l>
                     </o>
@@ -1025,7 +1025,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -1192,7 +1192,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -1359,7 +1359,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -1526,7 +1526,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -1693,7 +1693,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -1864,7 +1864,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -2031,7 +2031,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -3936,7 +3936,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -4259,7 +4259,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -4550,7 +4550,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.Estacion.i_PulsadorEmergencia"</v>
+                          <v n="Value">"MAIN.Estacion.i_PresenciaPale"</v>
                         </o>
                       </l>
                     </o>
@@ -4582,7 +4582,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -5063,7 +5063,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -5230,7 +5230,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -5397,7 +5397,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -5720,7 +5720,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -6199,7 +6199,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -6678,7 +6678,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -6845,7 +6845,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -7168,7 +7168,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -7491,7 +7491,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -7658,7 +7658,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -7825,7 +7825,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -8148,7 +8148,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -8283,7 +8283,7 @@
                       <l n="VisualElemMemberList" t="VisualElemMemberCollection" cet="VisualElemMember">
                         <o>
                           <v n="Id">1186196937L</v>
-                          <v n="Value">"MAIN.Estacion.o_DescargadorBaja"</v>
+                          <v n="Value">"MAIN.Estacion.o_DescargadorSucciona"</v>
                         </o>
                       </l>
                     </o>
@@ -8315,7 +8315,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -8482,7 +8482,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4290774034</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -9273,7 +9273,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -9440,7 +9440,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -9607,7 +9607,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -9774,7 +9774,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -10565,7 +10565,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -10732,7 +10732,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -10899,7 +10899,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -11066,7 +11066,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -11233,7 +11233,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>
@@ -11873,7 +11873,7 @@
                     <o>
                       <v n="Id">135947015L</v>
                       <l n="Value" t="ArrayList" cet="UInt32">
-                        <v>4294888730</v>
+                        <v>4278190080</v>
                       </l>
                     </o>
                     <o>

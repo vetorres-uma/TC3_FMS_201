@@ -34,7 +34,7 @@ VAR
     i_PresenciaBase AT %I*: BOOL;
     
     // Variables de salida
-    o_EstacionDesconecta AT %Q*: BOOL;
+    o_DesconectaEstacion AT %Q*: BOOL;
     o_LamparaAlarma AT %Q*: BOOL;
     o_LamparaMarcha AT %Q*: BOOL;
     o_LamparaMaterial AT %Q*: BOOL;
@@ -43,6 +43,8 @@ VAR
     o_RetenedorBaja AT %Q*: BOOL;
     o_SeparadorSube AT %Q*: BOOL;
     
+    o_AvisadorSonoro AT %Q*: BOOL;
+
     o_DescargadorAvanza AT %Q*: BOOL;
     o_DescargadorRetrocede AT %Q*: BOOL;
     o_DescargadorBaja AT %Q*: BOOL;
@@ -50,9 +52,7 @@ VAR
     o_VerificardorBaja AT %Q*: BOOL;
     o_DesplazadorAvanza AT %Q*: BOOL;
     o_EmpujadorAvanza AT %Q*: BOOL;
-    o_DescargadorSucciona AT %Q*: BOOL;
-    
-    o_AvisadorAcustico AT %Q*: BOOL;
+    o_DescargadorSucciona AT %Q*: BOOL;    
 END_VAR
 ]]></Declaration>
     <Implementation>
