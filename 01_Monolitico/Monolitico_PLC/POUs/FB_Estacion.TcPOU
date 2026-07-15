@@ -5,11 +5,12 @@
 VAR_INPUT
 END_VAR
 VAR_OUTPUT
+	i_SelectorManual AT %I*: BOOL;
 END_VAR
 VAR
     // Variables de entrada
     i_PulsadorEmergencia AT %I*: BOOL;
-    i_SelectorManual AT %I*: BOOL;
+    //i_SelectorManual AT %I*: BOOL;
     i_PulsadorMarcha AT %I*: BOOL;
     i_PulsadorParada AT %I*: BOOL := TRUE;
     i_EstacionConectada AT %I*: BOOL;

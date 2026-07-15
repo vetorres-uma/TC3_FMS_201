@@ -1,17 +1,17 @@
 TC3_FMS_201 - BITACORA
 
-- Crear un proyecto TwinCAT (TwinCAT XAE Project (XML format)) en una solución 
-    - Nombre de la solución = TC3_FMS_201
-    - Nombre del proyecto = 01_Monolitico
-- Ocultar las configuraciones innecesarias
-- Incluir el archivo .gitignore
-- Incluir el archivo README
-- Crear un repositorio remoto en GitHub = TC3_FMS_201
-- Crear un repositorio locaL y sincronizar con el remoto (siguiendo las instrucciones de GitHub)
-- Crear un proyecto PLC Standard en 01_Monolitico = Monolitico_PLC
-
+[ ] Crear un proyecto TwinCAT (TwinCAT XAE Project (XML format)) en una solución 
+    - Nombre de la solución = TC3_FMS_201 (XXX_TC3_GYY, XXX = iniciales de la asignatura, YY = número del grupo)
+    - Nombre del proyecto = 01_Monolitico (FMS_20X_PLC)
+[ ] Ocultar las configuraciones innecesarias
+[ ] Incluir el archivo .gitignore
+[ ] Incluir el archivo README
+[ ] Crear un repositorio remoto en GitHub = TC3_FMS_201
+[ ] Crear un repositorio locaL y sincronizar con el remoto (siguiendo las instrucciones de GitHub)
+[ ] Crear un proyecto PLC Standard en 01_Monolitico = Monolitico_PLC
+[ ]
 15/07/26 - 0:30	
-- Cofigurar el proyecto
+[ ] Cofigurar el proyecto (opcional)
     - Habilitar Minimize ID changes
         - BD sobre el proyecto PLC > Properties > Common > Minimize Id changes in TwinCAT files
         * Evita los cambios de los número de identificación de los POU y sus objetos (metodos, acciones,...) incluidos en el archivo de cada POU. Lo  que evita que se produzcan cambios innecesarios de los que hay que hacer control de veriones.
@@ -19,21 +19,39 @@ TC3_FMS_201 - BITACORA
     - Deshabilitar Write product version in files
         - BD sobre el proyecto PLC > Properties > Advanced > Write product version in files
         * Elimina la versión de TwinCAT (ProductVersion) con la que se abrío cada POU que parece que no aporta nada.
-- Crear un FB_Estacion en SFC
-- Declarar e invocar a Estacion de tipo FB_Estacion en MAIN
-- Declarar todas las variables de entrada y salida en el bloque VAR de FB_Estacion
-- Crear una visualización (V_Estacion)
-- Añadir un rectángulo para monitorizar y modificar el valor de cada una de las variables de e/s
-    - Position (Width, Height), Colors, Texts, Text properties, inputconfiguration (Toggle)
-15/07/26 - 03:00	
+[ ] Crear un FB_Estacion en SFC
+[ ] Declarar e invocar a Estacion de tipo FB_Estacion en MAIN
+[ ] Declarar todas las variables de entrada y salida en el bloque VAR de FB_Estacion  (fms_descripcion_isa.pdf)
+[ ] Compilar
+5/07/26 - 03:00	
 15/07/26 - 09:00	
-- Conectarse al controlador remoto	
-- Escanear la entrada/salida en búsqueda de dispositivos y terminales
-- Identificar las señales de entrada y salida
-- Vincular las variables de entrada y salida con las señales correspondientes
-- Verificar la correcta monitorización y modificación de las señales de entrada y salida desde la visualización
-- Realizar un ciclo completo 
+[ ] Conectarse al controlador remoto	
+[ ] Escanear la entrada/salida en búsqueda de dispositivos y terminales
+[ ] Identificar las señales de entrada y salida
+[ ] Vincular las variables de entrada y salida con las señales correspondientes
+[ ] Transferir el proyecto (Login) y ponerlo en funcionamiento (Start)
+[ ] Monitorizar una variable de entrada (pulsador de marcha)
+[ ] Forzar una variable de salida (lámpara de alarma)
+[ ] Crear una visualización (V_Estacion)
+[ ] Añadir un rectángulo para monitorizar y modificar el valor de cada una de las variables de e/s
+    - Position (Width, Height), Colors, Texts, Text properties, inputconfiguration (Toggle)
+[ ] Verificar la correcta monitorización y modificación de las señales de entrada y salida desde la visualización
+[ ] Realizar un ciclo completo manualmente desde la visualización
 15/07/2026 - 09:45 (0:45)
+15/07/2026 - 19:40
+[ ] Incluir la gestión básica del modo manual
+	- Mover i_SelectorManual de VAR a VAR_OUTPUT
+	- Condicionar la invocación de Estacion en MAIN al selector de modo
+[ ] Añadir la secuencia principal «directa» (FB_Estacion)
+	- Poco a poco: subsecuencia a subsecuencia
+	- Un ciclo por activación del pulsador de marcha 
+	- Incluir temporizaciones cuando sea necesario
+	- Una etapa por cada situación
+	- Validar las subsecuencias conforme se incluyen 
+[ ] Incluir las condiciones iniciales (FB_Estación y Visu_Estacion)
+[ ] Añadir la estructura para la gestión del procesamiento por lotes (FB_Estación y Visu_Estacion)
+	- Unidades pendientes y solicitadas[]
+
 
 Atajos de teclado
 - Refactorizar (Rename) -> Ctrl+R, Ctrl+R
