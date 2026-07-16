@@ -8,15 +8,17 @@ VAR_INPUT
 	TiempoDesplazador: TIME := T#2S;
 END_VAR
 VAR_OUTPUT
+    CondicionInicial: BOOL;
+    
 	i_SelectorManual AT %I*: BOOL;
 END_VAR
 VAR
     // Variables de entrada
     i_PulsadorEmergencia AT %I*: BOOL;
-    //i_SelectorManual AT %I*: BOOL;
+    // i_SelectorManual AT %I*: BOOL;
     i_PulsadorMarcha AT %I*: BOOL;
     i_PulsadorParada AT %I*: BOOL := TRUE;
-    i_EstacionConectada AT %I*: BOOL;
+    i_EstacionConectada AT %I*: BOOL := TRUE;
     i_PresenciaPale AT %I*: BOOL;
     i_CodigoPaleBit0 AT %I*: BOOL;
     i_CodigoPaleBit1 AT %I*: BOOL;
@@ -155,7 +157,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{700a583f-b4d4-43e4-8c14-629c7cd3bec8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">""</v>
+                            <v n="Value">"a_CondicionInicial"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">19L</v>
@@ -191,7 +193,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">"i_PulsadorMarcha"</v>
+                            <v n="Value">"CondicionInicial and i_PulsadorMarcha"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">23L</v>
@@ -4759,6 +4761,18 @@ END_VAR
         </XmlArchive>
       </SFC>
     </Implementation>
+    <Action Name="a_CondicionInicial" Id="{50e82557-1c85-084f-13dd-c0ab9e9e78d6}">
+      <Implementation>
+        <ST><![CDATA[CondicionInicial := i_DetectorPresion 
+    AND i_EstacionConectada
+    AND i_EmpujadorDetras
+    AND i_VerificadorArriba
+    AND i_DesplazadorDetras
+    AND i_DescargadorDetras
+    AND i_DescargadorArriba;
+    ]]></ST>
+      </Implementation>
+    </Action>
     <ObjectProperties>
       <XmlArchive>
         <Data>
@@ -4854,5 +4868,13 @@ END_VAR
         </TypeList>
       </XmlArchive>
     </ObjectProperties>
+    <LineIds Name="FB_Estacion.a_CondicionInicial">
+      <LineId Id="1" Count="2" />
+      <LineId Id="8" Count="0" />
+      <LineId Id="4" Count="0" />
+      <LineId Id="6" Count="0" />
+      <LineId Id="10" Count="0" />
+      <LineId Id="7" Count="0" />
+    </LineIds>
   </POU>
 </TcPlcObject>

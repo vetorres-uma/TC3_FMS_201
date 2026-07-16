@@ -10,7 +10,7 @@ TC3_FMS_201 - BITACORA
 [ ] Crear un repositorio locaL y sincronizar con el remoto (siguiendo las instrucciones de GitHub)
 [ ] Crear un proyecto PLC Standard en 01_Monolitico = Monolitico_PLC
 [ ]
-15/07/26 - 0:30	
+15/07/26 -> 0:30	
 [ ] Cofigurar el proyecto (opcional)
     - Habilitar Minimize ID changes
         - BD sobre el proyecto PLC > Properties > Common > Minimize Id changes in TwinCAT files
@@ -23,7 +23,7 @@ TC3_FMS_201 - BITACORA
 [ ] Declarar e invocar a Estacion de tipo FB_Estacion en MAIN
 [ ] Declarar todas las variables de entrada y salida en el bloque VAR de FB_Estacion  (fms_descripcion_isa.pdf)
 [ ] Compilar
-5/07/26 - 03:00	
+5/07/26 -> 03:00 => 3:30	
 15/07/26 - 09:00	
 [ ] Conectarse al controlador remoto	
 [ ] Escanear la entrada/salida en búsqueda de dispositivos y terminales
@@ -37,7 +37,7 @@ TC3_FMS_201 - BITACORA
     - Position (Width, Height), Colors, Texts, Text properties, inputconfiguration (Toggle)
 [ ] Verificar la correcta monitorización y modificación de las señales de entrada y salida desde la visualización
 [ ] Realizar un ciclo completo manualmente desde la visualización
-15/07/2026 - 09:45 (0:45) (en este tiempo se realizo la visualización, luego se ha movido al siguiente tramo)
+15/07/2026 - 09:45 -> 0:45 => 4:15 (en este tiempo se realizo la visualización, luego se ha movido al siguiente tramo)
 15/07/2026 - 19:40
 [ ] Incluir la gestión básica del modo manual
 	- Mover i_SelectorManual de VAR a VAR_OUTPUT
@@ -48,43 +48,11 @@ TC3_FMS_201 - BITACORA
 	- Incluir temporizaciones cuando sea necesario (ausencia de sensores)
 	- Una etapa por cada situación
 	- Validar las subsecuencias conforme se incluyen 
-15/07/2026 - 20:10 (0:30)
-[ ] Incluir las condiciones iniciales (FB_Estación y Visu_Estacion)
+15/07/2026 - 20:10 (0:30) => 4:45
+16/07/2026 - 11:30
+[ ] Implementar las condiciones iniciales (FB_Estación y Visu_Estacion)
 [ ] Añadir la estructura para la gestión del procesamiento por lotes (FB_Estación y Visu_Estacion)
-	- Unidades pendientes y solicitadas[]
-
-Mensajes
-Severity	Code	Description	Project	File	Line	Suppression State
-Warning		15/07/2026 18:09:52 924 ms | 'TCOM Server' (10): Boot data not found (file: PLC\Port_851)				
-Message		generate boot information...	Monolitico_PLC	PLC.Monolitico_PLC	0	
-Message		Generate TMC information ...			0	
-Message		Build complete -- 0 errors, 0 warnings : ready for download!			0	
-Message		Import symbol information ...			0	
-Message		Size of global data: 14045 bytes			0	
-Message		Total allocated memory size for code and data: 478584 bytes			0	
-Message		Size of generated code: 75642 bytes			0	
-Message		typify code ...			0	
-Message		generate global initializations ...			0	
-Message		generate relocations ...			0	
-Message		generate code initialization ...			0	
-Message		generate code...			0	
-Message		------ Build started: Application: _01_Monolitico.Monolitico_PLC -------			0	
-
-Severity	Code	Description	Project	File	Line	Suppression State
-Warning		15/07/2026 18:09:52 924 ms | 'TCOM Server' (10): Boot data not found (file: PLC\Port_851)				
-Message		generate boot information...	Monolitico_PLC	PLC.Monolitico_PLC	0	
-Message		Import symbol information ...			0	
-Message		Size of global data: 14845 bytes			0	
-Message		generate code...			0	
-Message		generate code initialization ...			0	
-Message		typify code ...			0	
-Message		Build complete -- 0 errors, 0 warnings : ready for download!			0	
-Message		generate global initializations ...			0	
-Message		Total allocated memory size for code and data: 484560 bytes			0	
-Message		Size of generated code: 78492 bytes			0	
-Message		generate relocations ...			0	
-Message		------ Build started: Application: _01_Monolitico.Monolitico_PLC -------			0	
-Message		Generate TMC information ...			0	
+	- Unidades pendientes y solicitadas
 
 Atajos de teclado
 - Refactorizar (Rename) -> Ctrl+R, Ctrl+R

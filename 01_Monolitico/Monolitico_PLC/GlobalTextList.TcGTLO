@@ -56,6 +56,11 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"35"</v>
+              <v n="TextDefault">"CI"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"221"</v>
               <v n="TextDefault">"Cinta"</v>
               <l n="LanguageTexts" t="ArrayList" />
