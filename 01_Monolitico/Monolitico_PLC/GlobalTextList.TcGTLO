@@ -141,6 +141,11 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"640"</v>
+              <v n="TextDefault">"Ent. Palé"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"886"</v>
               <v n="TextDefault">"Entrada Palé"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -251,6 +256,11 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"57"</v>
+              <v n="TextDefault">"Sal. Palé"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"322"</v>
               <v n="TextDefault">"Separador"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -273,6 +283,11 @@
             <o>
               <v n="TextID">"282"</v>
               <v n="TextDefault">"Tarea"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"389"</v>
+              <v n="TextDefault">"Trans. Palé"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
