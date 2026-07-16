@@ -6,6 +6,11 @@
         <o xml:space="preserve" t="GlobalTextListObject">
           <l n="TextList" t="ArrayList" cet="TextListRow">
             <o>
+              <v n="TextID">"843"</v>
+              <v n="TextDefault">"%d"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"6"</v>
               <v n="TextDefault">"0"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -171,6 +176,11 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"560"</v>
+              <v n="TextDefault">"Pendientes"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"425"</v>
               <v n="TextDefault">"Pieza Correcta"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -211,6 +221,11 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"129"</v>
+              <v n="TextDefault">"Solicitadas"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"529"</v>
               <v n="TextDefault">"Sube"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -218,6 +233,11 @@
             <o>
               <v n="TextID">"42"</v>
               <v n="TextDefault">"Succiona"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"282"</v>
+              <v n="TextDefault">"Tarea"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>

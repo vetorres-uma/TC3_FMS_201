@@ -54,7 +54,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{80E70141-DC01-49F3-8FDD-B07B1142880A}" Name="Monolitico_PLC" PrjFilePath="Monolitico_PLC\Monolitico_PLC.plcproj" TmcFilePath="Monolitico_PLC\Monolitico_PLC.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Monolitico_PLC\Monolitico_PLC.tmc" TmcHash="{9AC7C5AD-D42E-40A5-F55F-3CC68972C5CD}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Monolitico_PLC\Monolitico_PLC.tmc" TmcHash="{2883650F-F067-2865-6617-56A49FDC5EB8}">
 					<Name>Monolitico_PLC Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">

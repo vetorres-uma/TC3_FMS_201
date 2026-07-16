@@ -62,8 +62,10 @@ TC3_FMS_201 - BITACORA
     - Nota FMS-205: implementar rechazar y descargar tapa (sin calcular)
 16/07/2026 - 12:25 (+0:55) -> 6:25
 
-[ ] Añadir la estructura para la gestión del procesamiento por lotes (FB_Estación y Visu_Estacion)
+16/07/2026 - 22:15
+[ ] Implementar procesamiento por lotes (FB_Estación y Visu_Estacion)
 	- Unidades pendientes y solicitadas
+    
 
 Atajos de teclado
 - Refactorizar (Rename) -> Ctrl+R, Ctrl+R
