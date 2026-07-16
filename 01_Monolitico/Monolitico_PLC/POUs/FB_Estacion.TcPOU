@@ -3,7 +3,7 @@
   <POU Name="FB_Estacion" Id="{0900b681-9b01-4b7c-9570-85b5f70c48a2}" SpecialFunc="None">
     <Declaration><![CDATA[FUNCTION_BLOCK FB_Estacion
 VAR_INPUT
-    ManiobrasSolicitadas: UINT := 1;
+    UnidadesSolicitadas: UINT := 1;
     
 	TiempoAjustePale: TIME := T#1S;
 	TiempoVerificacion: TIME := T#1S;
@@ -13,7 +13,7 @@ END_VAR
 VAR_OUTPUT
     CondicionInicial: BOOL;
     CondicionMarcha: BOOL;
-    ManiobrasPendientes: UINT;
+    UnidadesPendientes: UINT;
     
 	i_SelectorManual AT %I*: BOOL;
 END_VAR
@@ -5999,16 +5999,16 @@ END_VAR
     </Implementation>
     <Action Name="a_ManiobrasPendientes_Calcular" Id="{02a5032b-6e7b-001d-041b-1485fa225e04}">
       <Implementation>
-        <ST><![CDATA[IF ManiobrasPendientes > 0 THEN
-    ManiobrasPendientes := ManiobrasPendientes - 1;
+        <ST><![CDATA[IF UnidadesPendientes > 0 THEN
+    UnidadesPendientes := UnidadesPendientes - 1;
 END_IF;
 
-TareaFinalizada := (ManiobrasPendientes = 0);]]></ST>
+TareaFinalizada := (UnidadesPendientes = 0);]]></ST>
       </Implementation>
     </Action>
     <Action Name="a_ManiobrasPendientes_Iniciar" Id="{42172e6e-a864-0f61-2d9d-05e86b199c8d}">
       <Implementation>
-        <ST><![CDATA[ManiobrasPendientes := ManiobrasSolicitadas;]]></ST>
+        <ST><![CDATA[UnidadesPendientes := UnidadesSolicitadas;]]></ST>
       </Implementation>
     </Action>
     <Action Name="a_MarchaAutorizada" Id="{50e82557-1c85-084f-13dd-c0ab9e9e78d6}">
@@ -6021,7 +6021,7 @@ TareaFinalizada := (ManiobrasPendientes = 0);]]></ST>
     AND i_DescargadorDetras
     AND i_DescargadorArriba;
     
-CondicionMarcha := (ManiobrasSolicitadas > 0);
+CondicionMarcha := (UnidadesSolicitadas > 0);
 MarchaAutorizada := CondicionInicial AND CondicionMarcha;
 ]]></ST>
       </Implementation>
