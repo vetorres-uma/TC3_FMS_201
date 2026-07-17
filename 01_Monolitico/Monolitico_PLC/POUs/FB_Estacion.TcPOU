@@ -90,7 +90,114 @@ END_VAR
                       <l2 n="EmbeddedEntryActionProperties" />
                       <l2 n="EmbeddedExitActionProperties" />
                       <o n="ElementList" t="SFCElementList">
-                        <l2 n="InnerList" />
+                        <l2 n="InnerList" cet="SFCActionAssociation">
+                          <o>
+                            <l2 n="Attributes" cet="SFCAttribute">
+                              <o>
+                                <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">"a_LamparaAlarma"</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">2435L</v>
+                                <v n="IdParent">2434L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">""</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">2436L</v>
+                                <v n="IdParent">2434L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
+                                <o n="Value" t="BoolValue">
+                                  <v n="Value">"FALSE"</v>
+                                  <v n="DefaultValue">"FALSE"</v>
+                                </o>
+                                <v n="Id">2437L</v>
+                                <v n="IdParent">2434L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
+                                <o n="Value" t="EnumValue">
+                                  <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
+                                  <n n="BaseType" />
+                                  <v n="Value">"0"</v>
+                                  <v n="DefaultValue">"0"</v>
+                                </o>
+                                <v n="Id">2438L</v>
+                                <v n="IdParent">2434L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{e174fc0d-80b0-4a9e-a530-ca239c249a50}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">"N"</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">2439L</v>
+                                <v n="IdParent">2434L</v>
+                              </o>
+                            </l2>
+                            <v n="Id">2434L</v>
+                            <v n="IdParent">10L</v>
+                          </o>
+                          <o>
+                            <l2 n="Attributes" cet="SFCAttribute">
+                              <o>
+                                <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">"a_LamparaMarcha"</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">2429L</v>
+                                <v n="IdParent">2428L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">""</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">2430L</v>
+                                <v n="IdParent">2428L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
+                                <o n="Value" t="BoolValue">
+                                  <v n="Value">"FALSE"</v>
+                                  <v n="DefaultValue">"FALSE"</v>
+                                </o>
+                                <v n="Id">2431L</v>
+                                <v n="IdParent">2428L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
+                                <o n="Value" t="EnumValue">
+                                  <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
+                                  <n n="BaseType" />
+                                  <v n="Value">"0"</v>
+                                  <v n="DefaultValue">"0"</v>
+                                </o>
+                                <v n="Id">2432L</v>
+                                <v n="IdParent">2428L</v>
+                              </o>
+                              <o>
+                                <v n="AttributeId">{e174fc0d-80b0-4a9e-a530-ca239c249a50}</v>
+                                <o n="Value" t="StringValue">
+                                  <v n="Value">"N"</v>
+                                  <v n="DefaultValue">""</v>
+                                </o>
+                                <v n="Id">2433L</v>
+                                <v n="IdParent">2428L</v>
+                              </o>
+                            </l2>
+                            <v n="Id">2428L</v>
+                            <v n="IdParent">10L</v>
+                          </o>
+                        </l2>
                       </o>
                       <l2 n="Attributes" cet="SFCAttribute">
                         <o>
@@ -8092,6 +8199,18 @@ END_VAR
         </XmlArchive>
       </SFC>
     </Implementation>
+    <Action Name="a_LamparaAlarma" Id="{cdaafdb1-1d28-0651-0a6c-87941382fa76}">
+      <Implementation>
+        <ST><![CDATA[o_LamparaAlarma := NOT MarchaAutorizada;
+]]></ST>
+      </Implementation>
+    </Action>
+    <Action Name="a_LamparaMarcha" Id="{4cbaf431-03d8-0f1f-38d2-2bcf9ecda9f9}">
+      <Implementation>
+        <ST><![CDATA[o_LamparaMarcha := NOT S0.x;
+]]></ST>
+      </Implementation>
+    </Action>
     <Action Name="a_ManiobrasPendientes_Calcular" Id="{02a5032b-6e7b-001d-041b-1485fa225e04}">
       <Implementation>
         <ST><![CDATA[IF UnidadesPendientes > 0 THEN
@@ -8222,6 +8341,12 @@ MarchaAutorizada := CondicionInicial AND CondicionMarcha;
         </TypeList>
       </XmlArchive>
     </ObjectProperties>
+    <LineIds Name="FB_Estacion.a_LamparaAlarma">
+      <LineId Id="1" Count="1" />
+    </LineIds>
+    <LineIds Name="FB_Estacion.a_LamparaMarcha">
+      <LineId Id="1" Count="1" />
+    </LineIds>
     <LineIds Name="FB_Estacion.a_ManiobrasPendientes_Calcular">
       <LineId Id="2" Count="3" />
       <LineId Id="1" Count="0" />
