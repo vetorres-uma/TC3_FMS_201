@@ -1472,243 +1472,6 @@ END_VAR
                                               <v n="Value">"o_VerificardorBaja"</v>
                                               <v n="DefaultValue">""</v>
                                             </o>
-                                            <v n="Id">230L</v>
-                                            <v n="IdParent">229L</v>
-                                          </o>
-                                          <o>
-                                            <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
-                                            <o n="Value" t="StringValue">
-                                              <v n="Value">""</v>
-                                              <v n="DefaultValue">""</v>
-                                            </o>
-                                            <v n="Id">231L</v>
-                                            <v n="IdParent">229L</v>
-                                          </o>
-                                          <o>
-                                            <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
-                                            <o n="Value" t="BoolValue">
-                                              <v n="Value">"FALSE"</v>
-                                              <v n="DefaultValue">"FALSE"</v>
-                                            </o>
-                                            <v n="Id">232L</v>
-                                            <v n="IdParent">229L</v>
-                                          </o>
-                                          <o>
-                                            <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
-                                            <o n="Value" t="EnumValue">
-                                              <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
-                                              <n n="BaseType" />
-                                              <v n="Value">"0"</v>
-                                              <v n="DefaultValue">"0"</v>
-                                            </o>
-                                            <v n="Id">233L</v>
-                                            <v n="IdParent">229L</v>
-                                          </o>
-                                          <o>
-                                            <v n="AttributeId">{e174fc0d-80b0-4a9e-a530-ca239c249a50}</v>
-                                            <o n="Value" t="StringValue">
-                                              <v n="Value">"N"</v>
-                                              <v n="DefaultValue">""</v>
-                                            </o>
-                                            <v n="Id">234L</v>
-                                            <v n="IdParent">229L</v>
-                                          </o>
-                                        </l2>
-                                        <v n="Id">229L</v>
-                                        <v n="IdParent">217L</v>
-                                      </o>
-                                    </l2>
-                                  </o>
-                                  <l2 n="Attributes" cet="SFCAttribute">
-                                    <o>
-                                      <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
-                                      <o n="Value" t="StringValue">
-                                        <v n="Value">"S6"</v>
-                                        <v n="DefaultValue">""</v>
-                                      </o>
-                                      <v n="Id">218L</v>
-                                      <v n="IdParent">217L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
-                                      <o n="Value" t="StringValue">
-                                        <v n="Value">""</v>
-                                        <v n="DefaultValue">""</v>
-                                      </o>
-                                      <v n="Id">219L</v>
-                                      <v n="IdParent">217L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
-                                      <o n="Value" t="BoolValue">
-                                        <v n="Value">"FALSE"</v>
-                                        <v n="DefaultValue">"FALSE"</v>
-                                      </o>
-                                      <v n="Id">220L</v>
-                                      <v n="IdParent">217L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
-                                      <o n="Value" t="EnumValue">
-                                        <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
-                                        <n n="BaseType" />
-                                        <v n="Value">"0"</v>
-                                        <v n="DefaultValue">"0"</v>
-                                      </o>
-                                      <v n="Id">221L</v>
-                                      <v n="IdParent">217L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{6844a48e-46c2-4cc8-a185-a478f3b99cc0}</v>
-                                      <o n="Value" t="BoolValue">
-                                        <v n="Value">"FALSE"</v>
-                                        <v n="DefaultValue">"FALSE"</v>
-                                      </o>
-                                      <v n="Id">222L</v>
-                                      <v n="IdParent">217L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{62e1754b-7629-4e63-9cec-10ae0c536f1f}</v>
-                                      <o n="Value" t="BoolValue">
-                                        <v n="Value">"FALSE"</v>
-                                        <v n="DefaultValue">"FALSE"</v>
-                                      </o>
-                                      <v n="Id">223L</v>
-                                      <v n="IdParent">217L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{cacf1a68-236e-47c2-b7b1-1cf9199718cb}</v>
-                                      <o n="Value" t="StringValue">
-                                        <v n="Value">""</v>
-                                        <v n="DefaultValue">""</v>
-                                      </o>
-                                      <v n="Id">224L</v>
-                                      <v n="IdParent">217L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{b693554c-1b01-4a8d-afde-9e3a46f7465d}</v>
-                                      <o n="Value" t="StringValue">
-                                        <v n="Value">""</v>
-                                        <v n="DefaultValue">""</v>
-                                      </o>
-                                      <v n="Id">225L</v>
-                                      <v n="IdParent">217L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{700a583f-b4d4-43e4-8c14-629c7cd3bec8}</v>
-                                      <o n="Value" t="StringValue">
-                                        <v n="Value">""</v>
-                                        <v n="DefaultValue">""</v>
-                                      </o>
-                                      <v n="Id">226L</v>
-                                      <v n="IdParent">217L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{a6b08bd8-b696-47e3-9cbf-7408b61c9ff8}</v>
-                                      <o n="Value" t="StringValue">
-                                        <v n="Value">""</v>
-                                        <v n="DefaultValue">""</v>
-                                      </o>
-                                      <v n="Id">227L</v>
-                                      <v n="IdParent">217L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{a2621e18-7de3-4ea6-ae6d-89e9e0b7befd}</v>
-                                      <o n="Value" t="StringValue">
-                                        <v n="Value">""</v>
-                                        <v n="DefaultValue">""</v>
-                                      </o>
-                                      <v n="Id">228L</v>
-                                      <v n="IdParent">217L</v>
-                                    </o>
-                                  </l2>
-                                  <v n="Id">217L</v>
-                                  <v n="IdParent">2096L</v>
-                                </o>
-                                <o t="SFCTransition">
-                                  <v n="VariableName">"S6__to__S7"</v>
-                                  <n n="EmbeddedTransition" />
-                                  <l2 n="EmbeddedTransitionProperties" />
-                                  <l2 n="Attributes" cet="SFCAttribute">
-                                    <o>
-                                      <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
-                                      <o n="Value" t="StringValue">
-                                        <v n="Value">"S6.t &gt; TiempoVerificacion"</v>
-                                        <v n="DefaultValue">""</v>
-                                      </o>
-                                      <v n="Id">211L</v>
-                                      <v n="IdParent">210L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{7d894980-aeea-405c-a0f6-e2b26429c58f}</v>
-                                      <o n="Value" t="StringValue">
-                                        <v n="Value">""</v>
-                                        <v n="DefaultValue">""</v>
-                                      </o>
-                                      <v n="Id">212L</v>
-                                      <v n="IdParent">210L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{01580b27-6378-448b-8ecb-0e4b795b58d6}</v>
-                                      <o n="Value" t="BoolValue">
-                                        <v n="Value">"FALSE"</v>
-                                        <v n="DefaultValue">"FALSE"</v>
-                                      </o>
-                                      <v n="Id">213L</v>
-                                      <v n="IdParent">210L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{bc882c11-1e91-4dd8-a6b8-2075724ed18b}</v>
-                                      <o n="Value" t="EnumValue">
-                                        <v n="TemplateGuid">{79a4fdd5-c859-4de4-aa8d-c03372c880c2}</v>
-                                        <n n="BaseType" />
-                                        <v n="Value">"0"</v>
-                                        <v n="DefaultValue">"0"</v>
-                                      </o>
-                                      <v n="Id">214L</v>
-                                      <v n="IdParent">210L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{62e1754b-7629-4e63-9cec-10ae0c536f1f}</v>
-                                      <o n="Value" t="BoolValue">
-                                        <v n="Value">"FALSE"</v>
-                                        <v n="DefaultValue">"FALSE"</v>
-                                      </o>
-                                      <v n="Id">215L</v>
-                                      <v n="IdParent">210L</v>
-                                    </o>
-                                    <o>
-                                      <v n="AttributeId">{8294df19-5962-4dee-a874-1051dabb0e3e}</v>
-                                      <o n="Value" t="EnumValue">
-                                        <v n="TemplateGuid">{6ecff51c-9b8f-4338-aab0-67c2b31b07e9}</v>
-                                        <n n="BaseType" />
-                                        <v n="Value">"0"</v>
-                                        <v n="DefaultValue">"0"</v>
-                                      </o>
-                                      <v n="Id">216L</v>
-                                      <v n="IdParent">210L</v>
-                                    </o>
-                                  </l2>
-                                  <v n="Id">210L</v>
-                                  <v n="IdParent">2096L</v>
-                                </o>
-                                <o t="SFCStep">
-                                  <n n="EmbeddedMainAction" />
-                                  <n n="EmbeddedEntryAction" />
-                                  <n n="EmbeddedExitAction" />
-                                  <l2 n="EmbeddedMainActionProperties" />
-                                  <l2 n="EmbeddedEntryActionProperties" />
-                                  <l2 n="EmbeddedExitActionProperties" />
-                                  <o n="ElementList" t="SFCElementList">
-                                    <l2 n="InnerList" cet="SFCActionAssociation">
-                                      <o>
-                                        <l2 n="Attributes" cet="SFCAttribute">
-                                          <o>
-                                            <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
-                                            <o n="Value" t="StringValue">
-                                              <v n="Value">"o_VerificardorBaja"</v>
-                                              <v n="DefaultValue">""</v>
-                                            </o>
                                             <v n="Id">256L</v>
                                             <v n="IdParent">255L</v>
                                           </o>
@@ -1760,7 +1523,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"S7"</v>
+                                        <v n="Value">"S6"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">244L</v>
@@ -1863,14 +1626,14 @@ END_VAR
                                   <v n="IdParent">2096L</v>
                                 </o>
                                 <o t="SFCTransition">
-                                  <v n="VariableName">"S7__to__S8"</v>
+                                  <v n="VariableName">"S6__to__S7"</v>
                                   <n n="EmbeddedTransition" />
                                   <l2 n="EmbeddedTransitionProperties" />
                                   <l2 n="Attributes" cet="SFCAttribute">
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"i_VerificadorAbajo"</v>
+                                        <v n="Value">"S6.t &gt; TiempoVerificacion"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">237L</v>
@@ -1943,7 +1706,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"S8"</v>
+                                        <v n="Value">"S7"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">269L</v>
@@ -2046,7 +1809,7 @@ END_VAR
                                   <v n="IdParent">2096L</v>
                                 </o>
                                 <o t="SFCTransition">
-                                  <v n="VariableName">"S8__to__S9"</v>
+                                  <v n="VariableName">"S7__to__S8"</v>
                                   <n n="EmbeddedTransition" />
                                   <l2 n="EmbeddedTransitionProperties" />
                                   <l2 n="Attributes" cet="SFCAttribute">
@@ -2180,7 +1943,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"S9"</v>
+                                        <v n="Value">"S8"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">294L</v>
@@ -2283,14 +2046,14 @@ END_VAR
                                   <v n="IdParent">2096L</v>
                                 </o>
                                 <o t="SFCTransition">
-                                  <v n="VariableName">"S9__to__S10"</v>
+                                  <v n="VariableName">"S8__to__S9"</v>
                                   <n n="EmbeddedTransition" />
                                   <l2 n="EmbeddedTransitionProperties" />
                                   <l2 n="Attributes" cet="SFCAttribute">
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"S9.t &gt; TiempoDesplazador"</v>
+                                        <v n="Value">"S8.t &gt; TiempoDesplazador"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">287L</v>
@@ -2363,7 +2126,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"S10"</v>
+                                        <v n="Value">"S9"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">320L</v>
@@ -2466,7 +2229,7 @@ END_VAR
                                   <v n="IdParent">2096L</v>
                                 </o>
                                 <o t="SFCTransition">
-                                  <v n="VariableName">"S10__to__S11"</v>
+                                  <v n="VariableName">"S9__to__S10"</v>
                                   <n n="EmbeddedTransition" />
                                   <l2 n="EmbeddedTransitionProperties" />
                                   <l2 n="Attributes" cet="SFCAttribute">
@@ -2546,7 +2309,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"S11"</v>
+                                        <v n="Value">"S10"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">2193L</v>
@@ -2655,7 +2418,7 @@ END_VAR
                                         <o n="ElementList" t="SFCElementList">
                                           <l2 n="InnerList">
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"Branch0_0__S11__to__S12"</v>
+                                              <v n="VariableName">"Branch0_0__S10__to__S11"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
@@ -2789,7 +2552,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S12"</v>
+                                                    <v n="Value">"S11"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">2293L</v>
@@ -2892,7 +2655,7 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S12__to__S13"</v>
+                                              <v n="VariableName">"S11__to__S12"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
@@ -3079,7 +2842,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S13"</v>
+                                                    <v n="Value">"S12"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">370L</v>
@@ -3182,7 +2945,7 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S13__to__S14"</v>
+                                              <v n="VariableName">"S12__to__S13"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
@@ -3316,7 +3079,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S14"</v>
+                                                    <v n="Value">"S13"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">401L</v>
@@ -3419,7 +3182,7 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S14__to__S15"</v>
+                                              <v n="VariableName">"S13__to__S14"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
@@ -3606,7 +3369,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S15"</v>
+                                                    <v n="Value">"S14"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">432L</v>
@@ -3709,7 +3472,7 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S15__to__S16"</v>
+                                              <v n="VariableName">"S14__to__S15"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
@@ -3896,7 +3659,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S16"</v>
+                                                    <v n="Value">"S15"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">463L</v>
@@ -3999,7 +3762,7 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S16__to__S17"</v>
+                                              <v n="VariableName">"S15__to__S16"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
@@ -4133,7 +3896,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S17"</v>
+                                                    <v n="Value">"S16"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">494L</v>
@@ -4236,7 +3999,7 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S17__to__S18"</v>
+                                              <v n="VariableName">"S16__to__S17"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
@@ -4316,7 +4079,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S18"</v>
+                                                    <v n="Value">"S17"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">525L</v>
@@ -4419,7 +4182,7 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S18__to__S19"</v>
+                                              <v n="VariableName">"S17__to__S18"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
@@ -4553,7 +4316,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S19"</v>
+                                                    <v n="Value">"S18"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">556L</v>
@@ -4656,7 +4419,7 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S19__to__S20"</v>
+                                              <v n="VariableName">"S18__to__S19"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
@@ -4790,7 +4553,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S20"</v>
+                                                    <v n="Value">"S19"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">1175L</v>
@@ -4893,14 +4656,14 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S20__to__S21"</v>
+                                              <v n="VariableName">"S19__to__S20"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S20.t &gt; TiempoSeparador"</v>
+                                                    <v n="Value">"S19.t &gt; TiempoSeparador"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">1187L</v>
@@ -5080,7 +4843,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S21"</v>
+                                                    <v n="Value">"S20"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">1326L</v>
@@ -5183,14 +4946,14 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S21__to__S22"</v>
+                                              <v n="VariableName">"S20__to__S21"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S21.t &gt; TiempoRetenedor"</v>
+                                                    <v n="Value">"S20.t &gt; TiempoRetenedor"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">1319L</v>
@@ -5423,7 +5186,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S22"</v>
+                                                    <v n="Value">"S21"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">1208L</v>
@@ -5526,7 +5289,7 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S22__to__S23"</v>
+                                              <v n="VariableName">"S21__to__S22"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
@@ -5713,7 +5476,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S23"</v>
+                                                    <v n="Value">"S22"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">1289L</v>
@@ -5816,14 +5579,14 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S23__to__S24"</v>
+                                              <v n="VariableName">"S22__to__S23"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S23.t &gt; TiempoRetenedor"</v>
+                                                    <v n="Value">"S22.t &gt; TiempoRetenedor"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">1282L</v>
@@ -5950,7 +5713,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S24"</v>
+                                                    <v n="Value">"S23"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">1363L</v>
@@ -6053,14 +5816,14 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S24__to__S25"</v>
+                                              <v n="VariableName">"S23__to__S24"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S24.t &gt; TiempoSeparador"</v>
+                                                    <v n="Value">"S23.t &gt; TiempoSeparador"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">1356L</v>
@@ -6187,7 +5950,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S25"</v>
+                                                    <v n="Value">"S24"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">1394L</v>
@@ -6290,14 +6053,14 @@ END_VAR
                                               <v n="IdParent">2235L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S25__to__S26"</v>
+                                              <v n="VariableName">"S24__to__S25"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S25.t &gt; TiempoTransferenciPale"</v>
+                                                    <v n="Value">"S24.t &gt; TiempoTransferenciPale"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">1387L</v>
@@ -6394,7 +6157,7 @@ END_VAR
                                         <o n="ElementList" t="SFCElementList">
                                           <l2 n="InnerList">
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"Branch0_1__S11__to__S12a"</v>
+                                              <v n="VariableName">"Branch0_1__S10__to__S11a"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
@@ -6528,7 +6291,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S12a"</v>
+                                                    <v n="Value">"S11a"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">2251L</v>
@@ -6631,14 +6394,14 @@ END_VAR
                                               <v n="IdParent">2239L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S12a__to__S13a"</v>
+                                              <v n="VariableName">"S11a__to__S12a"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S12a.t &gt; TiempoRechazador"</v>
+                                                    <v n="Value">"S11a.t &gt; TiempoRechazador"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">2263L</v>
@@ -6711,7 +6474,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S13a"</v>
+                                                    <v n="Value">"S12a"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">2274L</v>
@@ -6814,14 +6577,14 @@ END_VAR
                                               <v n="IdParent">2239L</v>
                                             </o>
                                             <o t="SFCTransition">
-                                              <v n="VariableName">"S13a__to__S3"</v>
+                                              <v n="VariableName">"S12a__to__S3"</v>
                                               <n n="EmbeddedTransition" />
                                               <l2 n="EmbeddedTransitionProperties" />
                                               <l2 n="Attributes" cet="SFCAttribute">
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"S13a.t &gt; TiempoRechazador"</v>
+                                                    <v n="Value">"S12a.t &gt; TiempoRechazador"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">2286L</v>
@@ -7455,7 +7218,7 @@ END_VAR
                         <o>
                           <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                           <o n="Value" t="StringValue">
-                            <v n="Value">"S26"</v>
+                            <v n="Value">"S25"</v>
                             <v n="DefaultValue">""</v>
                           </o>
                           <v n="Id">1973L</v>
@@ -7564,7 +7327,7 @@ END_VAR
                             <o n="ElementList" t="SFCElementList">
                               <l2 n="InnerList" cet="SFCTransition">
                                 <o>
-                                  <v n="VariableName">"Branch0__S26__to__S0"</v>
+                                  <v n="VariableName">"Branch0__S25__to__S0"</v>
                                   <n n="EmbeddedTransition" />
                                   <l2 n="EmbeddedTransitionProperties" />
                                   <l2 n="Attributes" cet="SFCAttribute">
@@ -7668,7 +7431,7 @@ END_VAR
                             <o n="ElementList" t="SFCElementList">
                               <l2 n="InnerList">
                                 <o t="SFCTransition">
-                                  <v n="VariableName">"Branch1__S26__to__S1"</v>
+                                  <v n="VariableName">"Branch1__S25__to__S1"</v>
                                   <n n="EmbeddedTransition" />
                                   <l2 n="EmbeddedTransitionProperties" />
                                   <l2 n="Attributes" cet="SFCAttribute">
