@@ -56,6 +56,7 @@ TC3_FMS_201 - BITACORA
 15/07/2026 - 20:15 (+2:00) => 5:20
 
 16/07/2026 - 11:30
+[ ] Incluir parámetros del sistema en la visualización
 [ ] Implementar las condiciones iniciales (FB_Estación y Visu_Estacion)
     - Utilizar acción principal
 [ ] Implementar pieza correcta (si corresponde)
@@ -65,7 +66,12 @@ TC3_FMS_201 - BITACORA
 16/07/2026 - 22:15
 [ ] Implementar procesamiento por lotes (FB_Estación y Visu_Estacion)
 	- Unidades pendientes y solicitadas
-    
+16/07/2026 - 23:05 (+0:50) -> 7:15
+
+17/07/2026 - 09:50
+[ ] Incluir la falta de material (si procede) -> Hacer esto antes de implementar la gestión de la tarea, incluso antes de pieza correcta
+[ ] Incluir señalización básica
+     
 
 Atajos de teclado
 - Refactorizar (Rename) -> Ctrl+R, Ctrl+R
