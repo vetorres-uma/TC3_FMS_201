@@ -72,7 +72,3 @@ TC3_FMS_201 - BITACORA
 [ ] Incluir la falta de material (si procede) -> Hacer esto antes de implementar la gestión de la tarea, incluso antes de pieza correcta
 [ ] Incluir señalización básica
 17:07/2026 - 10:40 (+0:50) -> 8:05
-     
-
-Atajos de teclado
-- Refactorizar (Rename) -> Ctrl+R, Ctrl+R

@@ -10,15 +10,11 @@ END_VAR
       <ST><![CDATA[IF NOT Estacion.i_SelectorManual THEN
 	Estacion();
 END_IF;
-
-
 ]]></ST>
     </Implementation>
     <LineIds Name="MAIN">
       <LineId Id="2" Count="0" />
       <LineId Id="12" Count="1" />
-      <LineId Id="15" Count="0" />
-      <LineId Id="14" Count="0" />
       <LineId Id="7" Count="0" />
     </LineIds>
   </POU>
