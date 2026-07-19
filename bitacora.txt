@@ -1,74 +1,80 @@
 TC3_FMS_201 - BITACORA
 
 15/07/2026 - 1:00
-[ ] Crear un proyecto TwinCAT (TwinCAT XAE Project (XML format)) en una solución 
-    - Nombre de la solución = TC3_FMS_201 (XXX_TC3_GYY, XXX = iniciales de la asignatura, YY = número del grupo)
-    - Nombre del proyecto = 01_Monolitico (FMS_20X_PLC)
+    - Nombre solución = XXX_TC3_GYY, (XXX = iniciales asignatura, YY = número grupo)
+    - Nombre proyecto = FMS_XXX_PLC (XXX = número de estación)
 [ ] Ocultar las configuraciones innecesarias
 [ ] Incluir el archivo .gitignore
 [ ] Incluir el archivo README
 [ ] Crear un repositorio remoto en GitHub = TC3_FMS_201
 [ ] Crear un repositorio locaL y sincronizar con el remoto (siguiendo las instrucciones de GitHub)
-[ ] Crear un proyecto PLC Standard en 01_Monolitico = Monolitico_PLC
+[ ] Crear un proyecto PLC estándar
+    - Nombre proyecto = Monolitico_PLC
 15/07/2026 - 1:10 (+0:10) -> 0:10
 
 15/07/26 - 1:25	
-[ ] Cofigurar el proyecto (opcional)
-    - Habilitar Minimize ID changes
-        - BD sobre el proyecto PLC > Properties > Common > Minimize Id changes in TwinCAT files
-        * Evita los cambios de los número de identificación de los POU y sus objetos (metodos, acciones,...) incluidos en el archivo de cada POU. Lo  que evita que se produzcan cambios innecesarios de los que hay que hacer control de veriones.
-    
-    - Deshabilitar Write product version in files
-        - BD sobre el proyecto PLC > Properties > Advanced > Write product version in files
-        * Elimina la versión de TwinCAT (ProductVersion) con la que se abrío cada POU que parece que no aporta nada.
-[ ] Crear un FB_Estacion en SFC
-[ ] Declarar e invocar a Estacion de tipo FB_Estacion en MAIN
-[ ] Declarar todas las variables de entrada y salida en el bloque VAR de FB_Estacion  (fms_descripcion_isa.pdf)
-[ ] Compilar
+[ ] Configurar el proyecto (opcional)
+    [ ] Habilitar Minimize ID Changes
+    [ ] Deshabilitar Write product version in files
+[ ] Crear Estacion
+    [ ] Crear el FB FB_Estacion en SFC
+    [ ] Declarar todas las variables de entrada/salida en VAR de FB_Estacion
+    [ ] Instanciar Estacion de tipo FB_Estacion e invocarlo en MAIN
+    [ ] Compilar para generar las instacias de las variables de entrada/salida
 5/07/26 - 03:10 (+2:15) -> 2:25
 	
 15/07/26 - 09:05	
-[ ] Conectarse al controlador remoto	
-[ ] Escanear la entrada/salida en búsqueda de dispositivos y terminales
-[ ] Identificar las señales de entrada y salida
-[ ] Vincular las variables de entrada y salida con las señales correspondientes
-[ ] Transferir el proyecto (Login) y ponerlo en funcionamiento (Start)
-[ ] Monitorizar una variable de entrada (pulsador de marcha)
-[ ] Forzar una variable de salida (lámpara de alarma)
-[ ] Crear una visualización (V_Estacion)
-[ ] Añadir un rectángulo para monitorizar y modificar el valor de cada una de las variables de e/s
-    - Position (Width, Height), Colors, Texts, Text properties, inputconfiguration (Toggle)
-[ ] Verificar la correcta monitorización y modificación de las señales de entrada y salida desde la visualización
-[ ] Realizar un ciclo completo manualmente desde la visualización
+[ ] Incluir señales de entrada y salida
+    [ ] Seleccionar el controlador remoto
+    [ ] Escanear la entrada/salida en búsqueda de dispositivo y terminales
+    [ ] Deshabilitar dispositivos innecesarios
+    [ ] Identificar y nominar las señales de entrada y salida
+    [ ] Vincular las señales con las instancias de las variables de entrada y salida
+    [ ] Activar configuración, trasferir el proyecto y pornerlo en funcionamiento
+    [ ] Monitorizar una variable de entrada (pulsador de marcha) desde Estacion
+    [ ] Forzar una variable de salida (lámpara de marcha) desde Estación
+
+[ ] Crear la visualización báica (V_Estacion)
+    [ ] Añadir un rectángulo para monitorizar y modificar el valor de cada una de las variables de e/s
+        - Position (Width, Height), Colors, Texts, Text properties, inputconfiguration (Toggle)
+    [ ] Monitorizar una variable de entrada (pulsador de marcha) desde V_Estacion
+    [ ] Forzar una variable de salida (lámpara de marcha) desde V_Estación
+
 15/07/2026 - 10:00 (+0:55) -> 3:20 (en este tiempo se realizo la visualización, luego se ha movido al siguiente tramo)
 
 15/07/2026 - 18:15
-[ ] Incluir la gestión básica del modo manual
-	- Mover i_SelectorManual de VAR a VAR_OUTPUT
-	- Condicionar la invocación de Estacion en MAIN al selector de modo
-[ ] Añadir la secuencia principal directa (camino feliz) en FB_Estacion
+[ ] Implementar la gestión básica del modo manual
+	[ ] Mover i_SelectorManual de VAR a VAR_OUTPUT
+	[ ] Invocar Estacion en MAIN condicionada al selector de modo
+    [ ] Verificar la correcta monitorización y modificación de las señales de entrada y salida desde la visualización
+    [ ] Realizar un ciclo completo manualmente desde la visualización
+[ ] Implementar la secuencia principal directa (camino feliz) en FB_Estacion
 	- Poco a poco: subsecuencia a subsecuencia
 	- Un ciclo por activación del pulsador de marcha 
 	- Incluir temporizaciones cuando sea necesario (ausencia de sensores)
 	- Una etapa por cada situación
-	- Validar las subsecuencias conforme se incluyen 
-    - Nota FMS-206: colocar sólo un tornillo por ciclo
+	- Validar las subsecuencias conforme se incluyen
 15/07/2026 - 20:15 (+2:00) => 5:20
 
 16/07/2026 - 11:30
-[ ] Incluir parámetros del sistema en la visualización
-[ ] Implementar las condiciones iniciales (FB_Estación y Visu_Estacion)
-    - Utilizar acción principal
-[ ] Implementar pieza correcta (si corresponde)
-    - Nota FMS-205: implementar rechazar y descargar tapa (sin calcular)
+[ ] Añadir parámetros del sistema a la visualización
+[ ] Implementar condiciones iniciales (FB_Estación y Visu_Estacion)
+    - Utilizar acción principal (a_CondicionInicial)
+[ ] Implementar tratamiento de la falta de material 
+[ ] Implementar pieza correcta 
+    - Utilizar acción a la entrada (a_PiezaCorrecta)
+    - V_Estacion: selección del tipo de rodamiento
+    - FB_Estacion: pieza correcta (bien colocada)
 16/07/2026 - 12:25 (+0:55) -> 6:25
 
 16/07/2026 - 22:15
 [ ] Implementar procesamiento por lotes (FB_Estación y Visu_Estacion)
 	- Unidades pendientes y solicitadas
+    - a_CondidionInicial -> a_MarchaAutorizada
+    - Utilizar acción a la salida (a_PiezasPendientes_Calcular)
+    - Utilizar acción a la entrada (a_PiezasPendientes_Iniciar)
 16/07/2026 - 23:05 (+0:50) -> 7:15
 
 17/07/2026 - 09:50
-[ ] Incluir la falta de material (si procede) -> Hacer esto antes de implementar la gestión de la tarea, incluso antes de pieza correcta
-[ ] Incluir señalización básica
+[ ] Implementar señalización básica
 17:07/2026 - 10:40 (+0:50) -> 8:05
