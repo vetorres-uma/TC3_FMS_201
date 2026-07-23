@@ -7963,6 +7963,17 @@ END_VAR
         </XmlArchive>
       </SFC>
     </Implementation>
+    <Action Name="a_CondicionInicial" Id="{da48870b-a9a4-0983-0dbb-cdc36f43067c}">
+      <Implementation>
+        <ST><![CDATA[CondicionInicial := i_DetectorPresion 
+    AND i_EstacionConectada
+    AND i_EmpujadorDetras
+    AND i_VerificadorArriba
+    AND i_DesplazadorDetras
+    AND i_DescargadorDetras
+    AND i_DescargadorArriba;]]></ST>
+      </Implementation>
+    </Action>
     <Action Name="a_LamparaAlarma" Id="{cdaafdb1-1d28-0651-0a6c-87941382fa76}">
       <Implementation>
         <ST><![CDATA[o_LamparaAlarma := S0.x AND NOT MarchaAutorizada;
@@ -7977,14 +7988,7 @@ END_VAR
     </Action>
     <Action Name="a_MarchaAutorizada" Id="{50e82557-1c85-084f-13dd-c0ab9e9e78d6}">
       <Implementation>
-        <ST><![CDATA[CondicionInicial := i_DetectorPresion 
-    AND i_EstacionConectada
-    AND i_EmpujadorDetras
-    AND i_VerificadorArriba
-    AND i_DesplazadorDetras
-    AND i_DescargadorDetras
-    AND i_DescargadorArriba;
-    
+        <ST><![CDATA[a_CondicionInicial();
 CondicionMarcha := (UnidadesSolicitadas > 0);
 MarchaAutorizada := CondicionInicial AND CondicionMarcha;
 ]]></ST>
@@ -8105,6 +8109,10 @@ TareaFinalizada := (UnidadesPendientes = 0);]]></ST>
         </TypeList>
       </XmlArchive>
     </ObjectProperties>
+    <LineIds Name="FB_Estacion.a_CondicionInicial">
+      <LineId Id="2" Count="5" />
+      <LineId Id="1" Count="0" />
+    </LineIds>
     <LineIds Name="FB_Estacion.a_LamparaAlarma">
       <LineId Id="1" Count="1" />
     </LineIds>
@@ -8112,13 +8120,7 @@ TareaFinalizada := (UnidadesPendientes = 0);]]></ST>
       <LineId Id="1" Count="1" />
     </LineIds>
     <LineIds Name="FB_Estacion.a_MarchaAutorizada">
-      <LineId Id="1" Count="2" />
-      <LineId Id="8" Count="0" />
-      <LineId Id="4" Count="0" />
-      <LineId Id="6" Count="0" />
-      <LineId Id="10" Count="0" />
-      <LineId Id="7" Count="0" />
-      <LineId Id="11" Count="2" />
+      <LineId Id="10" Count="3" />
     </LineIds>
     <LineIds Name="FB_Estacion.a_PiezaCorrecta">
       <LineId Id="1" Count="1" />
