@@ -15016,7 +15016,7 @@
                     </o>
                     <o>
                       <v n="Id">1999528970L</v>
-                      <v n="Value">"MAIN.Estacion.PiezaCorrecta"</v>
+                      <v n="Value">"MAIN.Estacion.UnidadCorrecta"</v>
                     </o>
                     <o>
                       <v n="Id">3719097617L</v>
@@ -15071,7 +15071,7 @@
                     </o>
                     <o>
                       <v n="Id">390574330L</v>
-                      <v n="Value">"Pieza Correcta"</v>
+                      <v n="Value">"Unidad Correcta"</v>
                     </o>
                     <o>
                       <v n="Id">2597686782L</v>
@@ -15079,7 +15079,7 @@
                     </o>
                     <o>
                       <v n="Id">823443203L</v>
-                      <v n="Value">"425"</v>
+                      <v n="Value">"352"</v>
                     </o>
                   </l>
                 </o>
@@ -17347,7 +17347,7 @@
                     </o>
                     <o>
                       <v n="Id">390574330L</v>
-                      <v n="Value">"Pieza"</v>
+                      <v n="Value">"Estado"</v>
                     </o>
                     <o>
                       <v n="Id">2597686782L</v>
@@ -17355,7 +17355,7 @@
                     </o>
                     <o>
                       <v n="Id">823443203L</v>
-                      <v n="Value">"252"</v>
+                      <v n="Value">"672"</v>
                     </o>
                   </l>
                 </o>

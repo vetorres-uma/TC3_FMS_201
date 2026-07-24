@@ -10,6 +10,7 @@ VAR_INPUT
 	TiempoEntradaPale: TIME := T#1S;
     TiempoSalidaPale: TIME := T#1S;
     TiempoTransferenciPale: TIME := T#1S;
+    
 	TiempoVerificacion: TIME := T#1S;
 	TiempoDesplazador: TIME := T#2S;
     TiempoRechazador: TIME := T#1S;
@@ -25,7 +26,7 @@ VAR
     MarchaAutorizada: BOOL;
     TareaFinalizada: BOOL;
     
-    PiezaCorrecta: BOOL;
+    UnidadCorrecta: BOOL;
     
     // Variables de entrada
     i_PulsadorEmergencia AT %I*: BOOL;
@@ -64,7 +65,7 @@ VAR
     o_SeparadorSube AT %Q*: BOOL;
     
     o_AvisadorSonoro AT %Q*: BOOL;
-
+    
     o_DescargadorAvanza AT %Q*: BOOL;
     o_DescargadorRetrocede AT %Q*: BOOL;
     o_DescargadorBaja AT %Q*: BOOL;
@@ -72,7 +73,7 @@ VAR
     o_VerificardorBaja AT %Q*: BOOL;
     o_DesplazadorAvanza AT %Q*: BOOL;
     o_EmpujadorAvanza AT %Q*: BOOL;
-    o_DescargadorSucciona AT %Q*: BOOL;    
+    o_DescargadorSucciona AT %Q*: BOOL;
 END_VAR
 ]]></Declaration>
     <Implementation>
@@ -1616,7 +1617,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{a2621e18-7de3-4ea6-ae6d-89e9e0b7befd}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"a_PiezaCorrecta"</v>
+                                        <v n="Value">"a_UnidadCorrecta"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">254L</v>
@@ -2426,7 +2427,7 @@ END_VAR
                                                 <o>
                                                   <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                                   <o n="Value" t="StringValue">
-                                                    <v n="Value">"PiezaCorrecta"</v>
+                                                    <v n="Value">"UnidadCorrecta"</v>
                                                     <v n="DefaultValue">""</v>
                                                   </o>
                                                   <v n="Id">2205L</v>
@@ -7965,18 +7966,19 @@ END_VAR
     </Implementation>
     <Action Name="a_CondicionInicial" Id="{da48870b-a9a4-0983-0dbb-cdc36f43067c}">
       <Implementation>
-        <ST><![CDATA[CondicionInicial := i_DetectorPresion 
+        <ST><![CDATA[CondicionInicial := i_DetectorPresion
     AND i_EstacionConectada
     AND i_EmpujadorDetras
     AND i_VerificadorArriba
     AND i_DesplazadorDetras
     AND i_DescargadorDetras
-    AND i_DescargadorArriba;]]></ST>
+    AND i_DescargadorArriba;
+    ]]></ST>
       </Implementation>
     </Action>
     <Action Name="a_LamparaAlarma" Id="{cdaafdb1-1d28-0651-0a6c-87941382fa76}">
       <Implementation>
-        <ST><![CDATA[o_LamparaAlarma := S0.x AND NOT MarchaAutorizada;
+        <ST><![CDATA[o_LamparaAlarma := (S0.x AND NOT MarchaAutorizada);
 ]]></ST>
       </Implementation>
     </Action>
@@ -7989,14 +7991,15 @@ END_VAR
     <Action Name="a_MarchaAutorizada" Id="{50e82557-1c85-084f-13dd-c0ab9e9e78d6}">
       <Implementation>
         <ST><![CDATA[a_CondicionInicial();
+
 CondicionMarcha := (UnidadesSolicitadas > 0);
 MarchaAutorizada := CondicionInicial AND CondicionMarcha;
 ]]></ST>
       </Implementation>
     </Action>
-    <Action Name="a_PiezaCorrecta" Id="{91682ee4-653b-02b9-0fa3-0ca2fab11185}">
+    <Action Name="a_UnidadCorrecta" Id="{91682ee4-653b-02b9-0fa3-0ca2fab11185}">
       <Implementation>
-        <ST><![CDATA[PiezaCorrecta := i_VerificadorAbajo;
+        <ST><![CDATA[UnidadCorrecta := i_VerificadorAbajo;
 ]]></ST>
       </Implementation>
     </Action>
@@ -8011,7 +8014,8 @@ TareaFinalizada := (UnidadesPendientes = 0);]]></ST>
     </Action>
     <Action Name="a_UnidadesPendientes_Iniciar" Id="{42172e6e-a864-0f61-2d9d-05e86b199c8d}">
       <Implementation>
-        <ST><![CDATA[UnidadesPendientes := UnidadesSolicitadas;]]></ST>
+        <ST><![CDATA[UnidadesPendientes := UnidadesSolicitadas;
+]]></ST>
       </Implementation>
     </Action>
     <ObjectProperties>
@@ -8112,6 +8116,7 @@ TareaFinalizada := (UnidadesPendientes = 0);]]></ST>
     <LineIds Name="FB_Estacion.a_CondicionInicial">
       <LineId Id="2" Count="5" />
       <LineId Id="1" Count="0" />
+      <LineId Id="8" Count="0" />
     </LineIds>
     <LineIds Name="FB_Estacion.a_LamparaAlarma">
       <LineId Id="1" Count="1" />
@@ -8120,9 +8125,11 @@ TareaFinalizada := (UnidadesPendientes = 0);]]></ST>
       <LineId Id="1" Count="1" />
     </LineIds>
     <LineIds Name="FB_Estacion.a_MarchaAutorizada">
-      <LineId Id="10" Count="3" />
+      <LineId Id="10" Count="0" />
+      <LineId Id="14" Count="0" />
+      <LineId Id="11" Count="2" />
     </LineIds>
-    <LineIds Name="FB_Estacion.a_PiezaCorrecta">
+    <LineIds Name="FB_Estacion.a_UnidadCorrecta">
       <LineId Id="1" Count="1" />
     </LineIds>
     <LineIds Name="FB_Estacion.a_UnidadesPendientes_Calcular">
@@ -8130,7 +8137,7 @@ TareaFinalizada := (UnidadesPendientes = 0);]]></ST>
       <LineId Id="1" Count="0" />
     </LineIds>
     <LineIds Name="FB_Estacion.a_UnidadesPendientes_Iniciar">
-      <LineId Id="1" Count="0" />
+      <LineId Id="1" Count="1" />
     </LineIds>
   </POU>
 </TcPlcObject>

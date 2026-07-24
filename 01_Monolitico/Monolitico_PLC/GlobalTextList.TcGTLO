@@ -166,6 +166,11 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"672"</v>
+              <v n="TextDefault">"Estado"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"578"</v>
               <v n="TextDefault">"FMS-201"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -298,6 +303,11 @@
             <o>
               <v n="TextID">"389"</v>
               <v n="TextDefault">"Trans. Palé"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"352"</v>
+              <v n="TextDefault">"Unidad Correcta"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
