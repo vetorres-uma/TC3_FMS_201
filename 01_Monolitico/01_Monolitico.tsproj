@@ -44,7 +44,7 @@
 		<ImageData Id="1002">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000120b0000120b00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c000ffffc0c0c000ffff808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0ff0000c0c0c0ff0000808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c00000ffc0c0c00000ff808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0000000c0c0c0000000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0008000c0c0c0008000808080ff00ffff00ffff00ffff00ffff00ff0000ff0000ff0000ff0000ff0000ff0000ffc0c0c0c0c0c0c0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ff</ImageData>
 		<ImageData Id="1003">424dd6020000000000003600000028000000100000000e0000000100180000000000a0020000c40e0000c40e00000000000000000000ff00ffff00ffff00ffff00ffff00ffff00ff808080808080808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffff00ffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff007fff007fff007fff007fff007fff007fffc0c0c0c0c0c0808080ff00ffff00ffff00ffff00ffff00ffff00ffff00ff</ImageData>
 	</ImageDatas>
-	<Project ProjectGUID="{08E1FD10-EF9F-4E46-B180-E9B7FCBEBEBF}" TargetNetId="5.67.250.180.1.1" ShowHideConfigurations="#x3c7">
+	<Project ProjectGUID="{08E1FD10-EF9F-4E46-B180-E9B7FCBEBEBF}" TargetNetId="5.67.250.180.1.1" Target64Bit="true" ShowHideConfigurations="#x3c7">
 		<System>
 			<Tasks>
 				<Task Id="3" Priority="20" CycleTime="100000" AmsPort="350" AdtTasks="true">
@@ -54,7 +54,7 @@
 		</System>
 		<Plc>
 			<Project GUID="{80E70141-DC01-49F3-8FDD-B07B1142880A}" Name="Monolitico_PLC" PrjFilePath="Monolitico_PLC\Monolitico_PLC.plcproj" TmcFilePath="Monolitico_PLC\Monolitico_PLC.tmc" ReloadTmc="true" AmsPort="851" FileArchiveSettings="#x000e" SymbolicMapping="true">
-				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Monolitico_PLC\Monolitico_PLC.tmc" TmcHash="{395C5CE9-3DFE-4540-B8A9-809485A43574}">
+				<Instance Id="#x08502000" TcSmClass="TComPlcObjDef" KeepUnrestoredLinks="2" TmcPath="Monolitico_PLC\Monolitico_PLC.tmc" TmcHash="{7C3C800F-28B0-AE13-32D3-750A6EA17981}">
 					<Name>Monolitico_PLC Instance</Name>
 					<CLSID ClassFactory="TcPlc30">{08500001-0000-0000-F000-000000000064}</CLSID>
 					<Vars VarGrpType="1">
@@ -131,11 +131,11 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.Estacion.i_EmpujadorDetras</Name>
+							<Name>MAIN.Estacion.i_AlimentadorDetras</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.Estacion.i_EmpujadorDelante</Name>
+							<Name>MAIN.Estacion.i_AlimentadorDelante</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -211,7 +211,7 @@
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
-							<Name>MAIN.Estacion.o_EmpujadorAvanza</Name>
+							<Name>MAIN.Estacion.o_AlimentadorAvanza</Name>
 							<Type>BOOL</Type>
 						</Var>
 						<Var>
@@ -780,7 +780,7 @@
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 8" Index="#x1a07" Flags="#x0011" SyncMan="0">
-								<Entry Name="EmpujadorDetras" Index="#x6070" Sub="#x01">
+								<Entry Name="AlimentadorDetras" Index="#x6070" Sub="#x01">
 									<Type>BIT</Type>
 								</Entry>
 							</Pdo>
@@ -793,7 +793,7 @@
 							<SyncMan>001001000000010004000000000000000100001000010000</SyncMan>
 							<Fmmu>0000000000000000001000010100000002000000000000000000000000000000</Fmmu>
 							<Pdo Name="Channel 1" Index="#x1a00" Flags="#x0011" SyncMan="0">
-								<Entry Name="EmpujadorDelante" Index="#x6000" Sub="#x01">
+								<Entry Name="AlimentadorDelante" Index="#x6000" Sub="#x01">
 									<Type>BIT</Type>
 								</Entry>
 							</Pdo>
@@ -871,7 +871,7 @@
 								</Entry>
 							</Pdo>
 							<Pdo Name="Channel 7" Index="#x1606" InOut="1" Flags="#x0011" SyncMan="0">
-								<Entry Name="EmpujadorAvanza" Index="#x7060" Sub="#x01">
+								<Entry Name="AlimentadorAvanza" Index="#x7060" Sub="#x01">
 									<Type>BIT</Type>
 								</Entry>
 							</Pdo>
@@ -966,7 +966,7 @@
 				<Vars VarGrpType="2" InsertType="1">
 					<Name>Outputs</Name>
 				</Vars>
-				<Image Id="4" ImageFlags="#x00000042" AddrType="12" ImageType="5">
+				<Image Id="4" ImageFlags="#x00000042" AddrType="5" ImageType="5">
 					<Name>Image</Name>
 				</Image>
 				<DpRam/>
@@ -974,14 +974,15 @@
 		</Io>
 	</Project>
 	<Mappings>
+		<MappingInfo Identifier="{00000000-2001-0850-0020-500810000403}" Id="#x02030010"/>
 		<OwnerA Name="TIPC^Monolitico_PLC^Monolitico_PLC Instance">
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 10 (EL2008)">
+				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_AlimentadorAvanza" VarB="Channel 7^AlimentadorAvanza"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_DescargadorAvanza" VarB="Channel 1^DescargadorAvanza"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_DescargadorBaja" VarB="Channel 3^DescargadorBaja"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_DescargadorRetrocede" VarB="Channel 2^DescargadorRetrocede"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_DescargadorSucciona" VarB="Channel 8^DescargadorSucciona"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_DesplazadorAvanza" VarB="Channel 6^DesplazadorAvanza"/>
-				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_EmpujadorAvanza" VarB="Channel 7^EmpujadorAvanza"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_RechazadorAvanza" VarB="Channel 4^RechazadorAvanza"/>
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_VerificardorBaja" VarB="Channel 5^VerificadorBaja"/>
 			</OwnerB>
@@ -1013,18 +1014,18 @@
 				<Link VarA="PlcTask Outputs^MAIN.Estacion.o_AvisadorSonoro" VarB="Channel 1^AvisadorSonoro"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 8 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_AlimentadorDetras" VarB="Channel 8^AlimentadorDetras"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DescargadorAbajo" VarB="Channel 4^DescargadorAbajo"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DescargadorArriba" VarB="Channel 3^DescargadorArriba"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DescargadorDelante" VarB="Channel 2^DescargadorDelante"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DescargadorDetras" VarB="Channel 1^DescargadorDetras"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DesplazadorDetras" VarB="Channel 7^DesplazadorDetras"/>
-				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_EmpujadorDetras" VarB="Channel 8^EmpujadorDetras"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_VerificadorAbajo" VarB="Channel 6^VerificadorAbajo"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_VerificadorArriba" VarB="Channel 5^VerificadorArriba"/>
 			</OwnerB>
 			<OwnerB Name="TIID^Device 1 (EtherCAT)^Term 1 (EK1200)^Term 9 (EL1008)">
+				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_AlimentadorDelante" VarB="Channel 1^AlimentadorDelante"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_DescargadorVacio" VarB="Channel 2^DescargadorVacio"/>
-				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_EmpujadorDelante" VarB="Channel 1^EmpujadorDelante"/>
 				<Link VarA="PlcTask Inputs^MAIN.Estacion.i_PresenciaBase" VarB="Channel 3^PresenciaBase"/>
 			</OwnerB>
 		</OwnerA>

@@ -66,6 +66,11 @@
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>
+              <v n="TextID">"990"</v>
+              <v n="TextDefault">"Alimentador"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
               <v n="TextID">"83"</v>
               <v n="TextDefault">"Arriba"</v>
               <l n="LanguageTexts" t="ArrayList" />
@@ -248,6 +253,11 @@
             <o>
               <v n="TextID">"173"</v>
               <v n="TextDefault">"Presencia"</v>
+              <l n="LanguageTexts" t="ArrayList" />
+            </o>
+            <o>
+              <v n="TextID">"909"</v>
+              <v n="TextDefault">"Presencia deBase"</v>
               <l n="LanguageTexts" t="ArrayList" />
             </o>
             <o>

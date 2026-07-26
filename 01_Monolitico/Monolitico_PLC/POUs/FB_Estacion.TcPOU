@@ -48,9 +48,9 @@ VAR
     i_VerificadorArriba AT %I*: BOOL := TRUE;
     i_VerificadorAbajo AT %I*: BOOL;
     i_DesplazadorDetras AT %I*: BOOL := TRUE;
-    i_EmpujadorDetras AT %I*: BOOL := TRUE;
+    i_AlimentadorDetras AT %I*: BOOL := TRUE;
     
-    i_EmpujadorDelante AT %I*: BOOL;
+    i_AlimentadorDelante AT %I*: BOOL;
     i_DescargadorVacio AT %I*: BOOL;
     i_PresenciaBase AT %I*: BOOL;
     
@@ -72,7 +72,7 @@ VAR
     o_RechazadorAvanza AT %Q*: BOOL;
     o_VerificardorBaja AT %Q*: BOOL;
     o_DesplazadorAvanza AT %Q*: BOOL;
-    o_EmpujadorAvanza AT %Q*: BOOL;
+    o_AlimentadorAvanza AT %Q*: BOOL;
     o_DescargadorSucciona AT %Q*: BOOL;
 END_VAR
 ]]></Declaration>
@@ -1051,7 +1051,7 @@ END_VAR
                                           <o>
                                             <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                             <o n="Value" t="StringValue">
-                                              <v n="Value">"o_EmpujadorAvanza"</v>
+                                              <v n="Value">"o_AlimentadorAvanza"</v>
                                               <v n="DefaultValue">""</v>
                                             </o>
                                             <v n="Id">180L</v>
@@ -1215,7 +1215,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"i_EmpujadorDelante"</v>
+                                        <v n="Value">"i_AlimentadorDelante"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">2186L</v>
@@ -1398,7 +1398,7 @@ END_VAR
                                     <o>
                                       <v n="AttributeId">{38391c6d-6d4a-42f8-8ee7-9f45e5adafa8}</v>
                                       <o n="Value" t="StringValue">
-                                        <v n="Value">"i_EmpujadorDetras"</v>
+                                        <v n="Value">"i_AlimentadorDetras"</v>
                                         <v n="DefaultValue">""</v>
                                       </o>
                                       <v n="Id">2224L</v>
@@ -7968,7 +7968,7 @@ END_VAR
       <Implementation>
         <ST><![CDATA[CondicionInicial := i_DetectorPresion
     AND i_EstacionConectada
-    AND i_EmpujadorDetras
+    AND i_AlimentadorDetras
     AND i_VerificadorArriba
     AND i_DesplazadorDetras
     AND i_DescargadorDetras
