@@ -17,13 +17,13 @@ VAR_INPUT
 END_VAR
 VAR_OUTPUT
     CondicionInicial: BOOL;
-    CondicionMarcha: BOOL;
+    MarchaAutorizada: BOOL;
     UnidadesPendientes: UINT;
     
 	i_SelectorManual AT %I*: BOOL;
 END_VAR
 VAR
-    MarchaAutorizada: BOOL;
+    DemandaProduccion: BOOL;
     TareaFinalizada: BOOL;
     
     UnidadCorrecta: BOOL;
@@ -7992,8 +7992,8 @@ END_VAR
       <Implementation>
         <ST><![CDATA[a_CondicionInicial();
 
-CondicionMarcha := (UnidadesSolicitadas > 0);
-MarchaAutorizada := CondicionInicial AND CondicionMarcha;
+DemandaProduccion := (UnidadesSolicitadas > 0);
+MarchaAutorizada := CondicionInicial AND DemandaProduccion;
 ]]></ST>
       </Implementation>
     </Action>
@@ -8126,8 +8126,9 @@ TareaFinalizada := (UnidadesPendientes = 0);]]></ST>
     </LineIds>
     <LineIds Name="FB_Estacion.a_MarchaAutorizada">
       <LineId Id="10" Count="0" />
+      <LineId Id="15" Count="0" />
       <LineId Id="14" Count="0" />
-      <LineId Id="11" Count="2" />
+      <LineId Id="12" Count="1" />
     </LineIds>
     <LineIds Name="FB_Estacion.a_UnidadCorrecta">
       <LineId Id="1" Count="1" />
